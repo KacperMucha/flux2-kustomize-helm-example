@@ -22,6 +22,6 @@ spec:
     - kind: Secret
       name: redis-auth
       valuesKey: password
-      targerPath: password
+      targetPath: password
     - kind: ConfigMap
       name: redis-values
